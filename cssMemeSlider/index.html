@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="assets/favicon/icons8-trollface-48.png" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="index.css" />
     <title>CSS Meme Slider</title>
   </head>
   <body>
@@ -17,19 +17,16 @@
               src="assets/img/photo_2024-09-10_16-32-58 (2).jpg"
               alt="one meme image"
             />
-
             <img
               class="meme"
               src="assets/img/photo_2024-09-10_16-32-58.jpg"
               alt="two meme image"
             />
-
             <img
               class="meme"
               src="assets/img/photo_2024-09-10_16-32-59 (2).jpg"
               alt="three meme image"
             />
-
             <img
               class="meme"
               src="assets/img/photo_2024-09-10_16-32-59.jpg"
@@ -37,23 +34,28 @@
             />
           </div>
         </div>
-      </section>
+        <div class="pod">
+        <div class="slider-description">
+          <div class="descriptions">
+            <p class="description">The list is growing every day</p>
+            <p class="description">We're all to blame for this shit</p>
+            <p class="description">Sounds like a plan</p>
+            <p class="description">Cillian Murphy goes to visit his grandmother in Taganrog</p>
+          </div>
+        </div>
 
-      <section class="slider-description">
-        <div class="descriptions">
-          <p class="description">The list is growing every day</p>
-          <p class="description">We're all to blame for this shit</p>
-          <p class="description">Sounds like a plan</p>
-          <p class="description">Cillian Murphy goes to visit his grandmother in Taganrog</p>
+        <div class="slider-control">
+          <input type="radio" name="slider" id="slide1" checked />
+          <label for="slide1" class="control"></label>
+          <input type="radio" name="slider" id="slide2" />
+          <label for="slide2" class="control"></label>
+          <input type="radio" name="slider" id="slide3" />
+          <label for="slide3" class="control"></label>
+          <input type="radio" name="slider" id="slide4" />
+          <label for="slide4" class="control"></label>
+        </div>
         </div>
       </section>
-
-      <div class="slider">
-        <input type="radio" name="slider" id="slide1" checked>
-        <input type="radio" name="slider" id="slide2">
-        <input type="radio" name="slider" id="slide3">
-      </div>
-      
     </main>
   </body>
 </html>
